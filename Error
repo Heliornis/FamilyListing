@@ -1,0 +1,9 @@
+Warning: Error in read.table: 'file' must be a character string or connection
+Stack trace (innermost first):
+    39: read.table
+    38: read.csv
+    37: server [/Users/Guest/Desktop/ShinyBirdFamiliesListingTool/app.R#58]
+     1: runApp
+Error in read.table(file = file, header = header, sep = sep, quote = quote,  : 
+  'file' must be a character string or connection
+ERROR: [on_request_read] connection reset by peer
